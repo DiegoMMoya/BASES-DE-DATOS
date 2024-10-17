@@ -1,0 +1,14 @@
+cd desktop -> accedo al escritorio y a las carpetas
+ls -> Veo lo que hay 
+git init -> inicio master 
+git status -> veo el estado de los archivos (Si se han guardado los cambios o hay algo nuevo)
+git add -> +nombre del archivo con un . añado todo 
+git commit -> Confirmo los cambios (git commit -m "xxNombre del save")
+
+- Vamos a Git y copiamos las instrucciones de subida en nuestra consola 
+git remote add origin https://github.com/DiegoMMoya/BASES-DE-DATOS.git
+git push -u origin master (o main si hemos cambiado el nombre del usuario git branch -M main)
+
+Se puede editar el archivo desde git o desde otro ordenador
+luego:
+git pull -> descarga los cambios o archivos nuevos
