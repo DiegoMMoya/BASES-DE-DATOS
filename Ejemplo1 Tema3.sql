@@ -10,7 +10,10 @@ CREATE TABLE asignatura(
     CODASIG NUMBER(3),
     NOMBRE VARCHAR2(30),
     NUMHORAS NUMBER(3),
-    DNI_PROFESOR VARCHAR2(9),
+    ---------------
+    DNI_PROFESOR VARCHAR2(9),    
+    --- FK Variable que he creado para referenciar datos de la tabla principal
+    -----------------
     CONSTRAINT pk_CodAsig PRIMARY KEY(CODASIG),
     CONSTRAINT fk_asignatura FOREIGN KEY(DNI_PROFESOR),
     REFERENCES PROFESOR(DNI);
